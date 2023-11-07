@@ -1,3 +1,14 @@
+# Code lấy điểm Quiz LMS
+
+### Bước 1: Mở lớp trên LMS để nhìn thấy danh sách 8 Quiz
+
+### Bước 2: Bấm F12 (hoặc kích phải chuột lên màn hình --> chọn Inspect / hoặc chữ "Kiểm tra phần tử")
+
+![Huong-dan](https://raw.githubusercontent.com/snvn1511/lms/main/quiz/tool-lay-diem-quiz.png)
+
+### Bước 3: Copy đoạn code dưới đây paste vào cửa sổ Console và Enter, sau đó đợi một lát sẽ có kết quả
+
+```javascript
 function ex_() {
   console.log("call ExportQuiz");
   var list_result_quiz = [];
@@ -167,3 +178,4 @@ function ex_() {
   download();
 }
 ex_();
+```
