@@ -163,7 +163,7 @@ function ex_() {
         ref_id +
         "&cmd=outEvaluation&cmdClass=iltestevaluationgui&cmdNode=ng:mp:mf&baseClass=ilrepositorygui";
       let link_statics_ptcd =
-        "http://lms9.poly.edu.vn/ilias.php?ref_id=" +
+        "https://lms9.poly.edu.vn/ilias.php?ref_id=" +
         ref_id +
         "&cmd=outEvaluation&cmdClass=iltestevaluationgui&cmdNode=ng:mp:mf&baseClass=ilrepositorygui";
       var objQuiz = await RunExport({
