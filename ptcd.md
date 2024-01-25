@@ -159,11 +159,11 @@ function ex_() {
       }
       ref_id = ref_id[0].replace("ref_id=", "").replace("&", "");
       let link_statics =
-        "https://lms-ptcd.poly.edu.vn/ilias.php?ref_id=" +
+        "https://lms9.poly.edu.vn/ilias.php?ref_id=" +
         ref_id +
         "&cmd=outEvaluation&cmdClass=iltestevaluationgui&cmdNode=ng:mp:mf&baseClass=ilrepositorygui";
       let link_statics_ptcd =
-        "http://lms-ptcd.poly.edu.vn/ilias.php?ref_id=" +
+        "http://lms9.poly.edu.vn/ilias.php?ref_id=" +
         ref_id +
         "&cmd=outEvaluation&cmdClass=iltestevaluationgui&cmdNode=ng:mp:mf&baseClass=ilrepositorygui";
       var objQuiz = await RunExport({
